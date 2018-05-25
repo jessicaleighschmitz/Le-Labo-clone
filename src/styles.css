@@ -1,0 +1,48 @@
+.main-head{
+  grid-area: header;
+}
+.search{
+  grid-area: search;
+}
+.title-info{
+  grid-area: title-info;
+}
+.main-img{
+  grid-area: main-img;
+}
+.sidebar{
+  grid-area: sidebar;
+}
+.view-personalization{
+  grid-area: view;
+}
+.size{
+  grid-area: size;
+}
+.quantity{
+  grid-area: quantity;
+}
+.label{
+  grid-area: label;
+}
+.button{
+  grid-area: button;
+}
+.description{
+  grid-area: description;
+}
+.sample{
+  grid-area: sample;
+}
+.help{
+  grid-area: help;
+}
+.recommendations{
+  grid-area: rec;
+}
+.social{
+  grid-area: social;
+}
+.footer{
+  grid-area: footer;
+}
