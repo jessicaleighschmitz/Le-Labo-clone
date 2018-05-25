@@ -267,7 +267,6 @@ footer ul li a{
 /* Grid */
 .wrapper{
   display: grid;
-  /* grid-gap: 20px; */
   grid-template-areas:
     "title-info"
     "main-img"
@@ -342,8 +341,5 @@ footer ul li a{
       "        view     sample"
       "                 help"
       " rec    rec";
-  }
-  .main-img{
-    /* width: 30vw; */
   }
 }
