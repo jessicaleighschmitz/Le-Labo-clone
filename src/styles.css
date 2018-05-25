@@ -1,3 +1,8 @@
+.main-img img{
+  max-width: 600px;
+}
+
+/* Grid area names */
 .main-head{
   grid-area: header;
 }
@@ -29,7 +34,7 @@
   grid-area: button;
 }
 .description{
-  grid-area: description;
+  grid-area: descript;
 }
 .sample{
   grid-area: sample;
@@ -43,6 +48,51 @@
 .social{
   grid-area: social;
 }
-.footer{
+.footer-nav{
   grid-area: footer;
+}
+/* Grid */
+.wrapper{
+  max-width: 80%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "header"
+    "search"
+    "title-info"
+    "main-img"
+    "sidebar"
+    "view"
+    "size"
+    "quantity"
+    "label"
+    "button"
+    "descript"
+    "sample"
+    "help"
+    "rec"
+    "social"
+    "footer";
+}
+@media (min-width: 700px){
+  .wrapper{
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "header   header"
+      "search   search"
+      "main-img title-info"
+      "main-img size"
+      "main-img quantity"
+      "main-img label"
+      "main-img button"
+      "sidebar  descript"
+      "view     descript"
+      "view     sample"
+      "view     help"
+      "rec     rec"
+      "social  social";
+  }
+  .footer-nav{
+    display: none;
+  }
 }
