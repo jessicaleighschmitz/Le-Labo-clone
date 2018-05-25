@@ -5,7 +5,10 @@
 # Description
 This is a single page website clone emphasizing design layout.
 
-#Original Website Layout:
+See it live at:
+
+
+# Original Website Layout:
 * Wide screen view
 ![Application Screenshot](src/images/LL-Wide.png)
 * Mobile view
