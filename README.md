@@ -3,16 +3,21 @@
 ## By Jessica Schmitz
 
 # Description
-This is a single page website clone emphasizing design layout.
-
-See it live at:
-
+This is a single page website clone of Le Labo fragrances, with emphasis on design layout.
 
 # Original Website Layout:
 * Wide screen view
 ![Application Screenshot](src/images/LL-Wide.png)
+
 * Mobile view
-![Application Screenshot](src/LL-Mobile.png)
+![Application Screenshot](src/images/LL-Mobile.png)
+
+# My Clone Layout:
+* Wide screen View
+![Application Screenshot](src/images/clone-wide.png)
+
+* Mobile View
+![Application Screenshot](src/images/clone-mobile.png)
 
 
 # Specifications
@@ -25,16 +30,16 @@ See it live at:
 * Run npm run start to build and start the development environment
 
 # Notes
-* To hold all images, **Make a folder called 'images' in the src/ directory**
 * If you want to rename your assets folder, currently known as 'images', **Make sure to change the outputPath and inputPath in webpack.config.js > module > rules > file-loader to your desired assets directory name.**
 
 # Technologies
 * HTML
 * CSS
+* CSS Grid, Flexbox
 * JavaScript
 * Webpack
 * Jasmine
 * Karma
 
 This project uses the _MIT License_
-&copy; **Bobby Martin** 2018
+&copy; **Jessica Schmitz** 2018

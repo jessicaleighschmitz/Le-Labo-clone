@@ -88,6 +88,9 @@ body{
   height: 59px;
   margin: 5px;
 }
+img.out-of-focus{
+  opacity: 0.5;
+}
 .sidebar{
   padding: 13px;
   border-left: 1px solid #e5e5e5;
