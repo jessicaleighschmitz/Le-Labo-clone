@@ -1,14 +1,20 @@
-# JS Template Repo for Epicodus
+# Le Labo Clone
 
-## By Bobby Martin
+## By Jessica Schmitz
 
 # Description
-This is a template directory to make things go quicker in the morning.
+This is a single page website clone emphasizing design layout.
+
+#Original Website Layout:
+* Wide screen view
+![Application Screenshot](src/images/LL-Wide.png)
+* Mobile view
+![Application Screenshot](src/LL-Mobile.png)
+
 
 # Specifications
 * The program will hold the necessary files and folders for easy cloning
-  * Input Example: **Example**
-  * Output Example: **Example**
+
 
 # Setup Requirements
 * Clone this repository
