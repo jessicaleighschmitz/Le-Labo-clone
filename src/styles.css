@@ -41,8 +41,7 @@ body{
   border-right: 1px solid #e5e5e5;
 }
 .main-img img{
-  width: 535px;
-  height: 535px;
+  width: 90vw;
 }
 .main-head ul{
   display: flex;
@@ -74,10 +73,11 @@ body{
   padding-bottom: 15px;
   padding-top: 15px;
   background-color: #fff;
+  font-size: 12px;
 }
 .search input{
   border: none;
-  width: 400px;
+  width: 200px;
   align-items: center;
 }
 .container{
@@ -123,7 +123,7 @@ button{
   color: #fff;
   background-color: #595959;
   text-transform: uppercase;
-  width: 521px;
+  width: 300px;
   height: 54px;
   padding: 15px;
   margin: 15px 15px 20px 15px;
@@ -164,8 +164,7 @@ button:hover{
   justify-content: space-around;
 }
 .rec1 img, .rec2 img{
-  width: 267px;
-  height: 267px;
+  width: 40vw;
 }
 .rec1, .rec2{
   border-left: 1px solid #e5e5e5;
@@ -282,8 +281,9 @@ footer ul li a{
     "social"
     "footer";
 }
-@media (min-width: 700px){
+@media (min-width: 500px){
   .wrapper{
+    max-width: 1000px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "main-img title-info"
@@ -298,11 +298,49 @@ footer ul li a{
       "rec     rec"
       "social  social";
   }
-  .footer-nav{
+  .recommendations{
+    justify-content: flex-start;
+  }
+  .rec1 img, .rec2 img{
+    width: 20vw;
+  }
+  footer{
     display: none;
   }
   .main-img img{
-    /* width: 100%;
-    height: 100%; */
+    width: 40vw;
+    height: 100%;
+  }
+}
+@media (min-width: 1020px){
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+  }
+  .main-head ul{
+    justify-content: space-around;
+  }
+  .title-name h2{
+    font-size: 30px;
+  }
+  .title-info p{
+    font-size: 16px;
+  }
+  /* not working */
+  .wrapper{
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas:
+      "sidebar main-img title-info"
+      "sidebar main-img size"
+      "sidebar main-img quanity"
+      "        main-img label"
+      "        main-img button"
+      "        main-img descript"
+      "        view     sample"
+      "                 help"
+      " rec    rec";
+  }
+  .main-img{
+    /* width: 30vw; */
   }
 }
