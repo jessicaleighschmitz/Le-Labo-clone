@@ -5,7 +5,8 @@
 # Description
 This is a single page website clone of Le Labo fragrances, with emphasis on design layout.
 
-|Screenshot of this Application | Original Website Layout |
+| Screenshot of this Application | Original Website Layout |
+| ------------- | -------------- |
 | ![Application Screenshot](src/images/LL-Wide.png) | ![Application Screenshot](src/images/LL-Mobile.png) |
 
 
