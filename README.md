@@ -3,20 +3,11 @@
 ## By Jessica Schmitz
 
 # Description
-This is a single page website clone of Le Labo fragrances, with emphasis on design layout.
+This is a single page website clone of Le Labo fragrances with emphasis using CSS Grid to achieve this responsive design layout.
 
-| Screenshot of this Application | Original Website Layout |
+| Full Screen view of my clone | Mobile view of my clone |
 | ------------- | -------------- |
-| ![Application Screenshot](src/images/LL-Wide.png) | ![Application Screenshot](src/images/LL-Mobile.png) |
-
-
-
-# My Clone Layout:
-* Wide screen View
-![Application Screenshot](src/images/clone-wide.png)
-
-* Mobile View
-![Application Screenshot](src/images/clone-mobile.png)
+| ![Application Screenshot](src/images/clone-wide.png) | ![Application Screenshot](src/images/clone-mobile.png) |
 
 
 # Specifications
